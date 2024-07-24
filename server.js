@@ -22,14 +22,14 @@ app.use(fileuploader());
 }*/
 
 let config = {
-    host: "brnqynvegg2mywvz8bxi-mysql.services.clever-cloud.com",
-    user: "upuxfaaoge9wymyw",
-    password: "yn6pHbHGsRkt0xZ3V6sF",
-    database: "brnqynvegg2mywvz8bxi",
-    dateStrings: true,
-    keepAliveInitialDelay : 10000,
-    enableKeepAlive:true
-}
+  host: "brnqynvegg2mywvz8bxi-mysql.services.clever-cloud.com",
+  user: "upuxfaaoge9wymyw",
+  password: "yn6pHbHGsRkt0xZ3V6sF",
+  database: "brnqynvegg2mywvz8bxi",
+  dateStrings: true,
+  keepAliveInitialDelay: 10000,
+  enableKeepAlive: true
+};
 
 
 
