@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#btnSend").click(function(){
+
+                let obj = {
+                    type: "post",
+                    url: "/mail-send-process",
+                    data: {
+                        txtSender: $("#txtSender").val(),
+                        txtRec: $("#txtRec").val(),
+                        txtMssg: $("#txtMssg").val(),
+                        txtSub: $("#txtSub").val()
+                    }
+                }
+
+                $.ajax(obj).done(function(resp){
+                  
+                    alert(resp);
+                
+                }).fail(function(err)
+                {
+                    alert(err.statusText);
+                })
+
+
+            });
+
+        });
+    </script>
+
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <script>
+        function dologout() {
+            localStorage.removeItem("activeuser");
+            location.href = "index.html";
+
+        }
+    </script>
+
+
+
+</head>
+
+<body style="background-color: rgb(47, 44, 44); color:white">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img src="pics/logo.jpg" alt="" width="3%" height="3%">
+            <a class="navbar-brand" href="#"> promo.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+            <button type="button" class="btn btn-outline-secondary" id="btnlogout" onclick="dologout();">Logout</button>
+
+
+
+    </nav>
+    <center>
+        <br>
+        <br>
+        <center>
+            <h1>
+                Your file is updated successfully!!
+            </h1>
+        </center>
+
+</body>
+
+</html>
