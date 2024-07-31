@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../mynodejs/nodeintro"
+		},
+		{
+			"path": "../nodejs-june-2024"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../mynodejs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project on influencer"
+	}
+}

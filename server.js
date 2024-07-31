@@ -28,7 +28,7 @@ let config = {
   database: "brnqynvegg2mywvz8bxi",
   dateStrings: true,
   keepAliveInitialDelay: 10000,
-  enableKeepAlive: true
+  enableKeepAlive: true,
 };
 
 
