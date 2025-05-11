@@ -33,23 +33,25 @@
 ### 📬 Email Notifications
 - *Password Recovery*: Sends a password recovery email
 - *Collaboration Requests*: Sends an email to influencers upon receiving a request
+
 ## 🧰 Tech Stack
 
-*Frontend*  
+**Frontend**  
 - HTML  
 - CSS  
 - JavaScript (served via Express)
 
-*Backend*  
+**Backend**  
 - Node.js  
 - Express.js
 
-*Database*  
+**Database**  
 - MySQL
 
-*File Handling*  
+**File Handling**  
 - express-fileupload
 
-*Email Services*  
+**Email Services**  
 - Nodemailer
+- 
 ---
